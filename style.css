@@ -1,14 +1,14 @@
-body {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
 #profile {
     width: 350px;
     object-fit: cover;
     border-radius: 50%;
     margin: auto;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 #welcome {
@@ -27,14 +27,14 @@ h1 {
     font-size: 40px;
     line-height: 1.2;
     font-weight: 300;
-    font-family: cursive;
+    font-family: 'Lobster', cursive;
 }
 
 h2 {
     font-size: 30px;
     line-height: 1.2;
     font-weight: 300;
-    font-family: fantasy;
+    font-family: 'Lobster Two', cursive;
 }
 
 #name {
@@ -55,17 +55,17 @@ h2 {
 
 .line {
     height: 6px;
-    width: 100px;
-    background: black;
+    background-color: black;
+    width: 70px;
     margin: 8px auto;
 }
 
 p {
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.3;
-    font-family: sans-serif;
+    font-family: 'Courgette', cursive;
     text-align: center;
 }
 
@@ -74,4 +74,92 @@ p {
     position: relative;
     text-align: center;
     vertical-align: middle;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#apps {
+    width: 100%;
+    text-align: center;
+    background-color:cornflowerblue
+    overflow: hidden;
+    height: 800px;
+}
+
+#games {
+    width: 100%;
+    text-align: center;
+    background-color:deeppink
+    height: 800px;
+    overflow: hidden;
+}
+
+#pic1,
+#pic2 {
+    transition: transform .2s;
+}
+
+#pic1:hover {
+    transform: scale(0.9);
+}
+
+#pic2:hover {
+    transform: scale(0.9);
+}
+
+#chatbot {
+    width: 100%;
+    text-align: center;
+    background-color: indigo;
+    height: 800px;
+    overflow: hidden;
+}
+
+#contact {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: rebeccapurple;
+    height: 800px;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+#mycarousel {
+    background-color: blueviolet;
+}
+
+#mycarousel img {
+    width: 500px;
+    margin-top: 35px;
+}
+
+.carousel-inner h3 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
 }
